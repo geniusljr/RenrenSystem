@@ -1,0 +1,4 @@
+<?php
+	$host = "http://192.168.2.202";
+	$getCurUserInfoPHP = "/RenrenSystem/Service/renrenGetCurUserInfo.php";
+?>

@@ -1,0 +1,14 @@
+<html>
+<body>
+	<form action="http://192.168.2.202/RenrenSystem/Service/renrenShareFunction.php" method = "post">
+		<script type="text/javascript">
+			function sendURI() {
+				var aa = document.getElementById('shareButton');
+				aa.innerHTML="<input type='hidden' name='cur_uri' value='" + document.location.href + "' />";	
+			}
+		</script>
+		<div id="shareButton"></div>
+		<input class="input-button" type="submit" name = "share" value = "分享到renren" onclick="sendURI();"/>
+	</form>
+</body>
+</html>

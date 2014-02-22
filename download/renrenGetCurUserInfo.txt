@@ -1,0 +1,10 @@
+<?php
+	include_once("HttpClient.class.php");
+	class Service {
+		function getCurUserInfo() {
+			include("config.php");
+			$url = $host.$getCurUserInfoPHP;
+			return HttpClient::quickGet($url);
+		}
+	}
+?>
